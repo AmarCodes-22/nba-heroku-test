@@ -3,9 +3,9 @@ mkdir -p ~/.streamlit/
 echo "\
 [server]\n\
 port = $PORT\n\
-[global]\n\
-dataFrameSerialization = "legacy"\
 enableCORS = false\n\
 headless = true\n\
+[global]\n\
+dataFrameSerialization = "legacy"\n\
 \n\
 " > ~/.streamlit/config.toml
